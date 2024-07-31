@@ -12,7 +12,7 @@ const Button = ({ text, icon: Icon, customStyle, ...rest }: ButtonProps) => {
     <button
       {...rest}
       className={twMerge(
-        "px-8 h-12 bg-transparent border border-red-700 text-red-700 text-center w-fit rounded-lg flex items-center gap-1",
+        "px-2 h-12 bg-transparent border border-red-700 text-red-700 text-center w-fit rounded-lg flex items-center gap-1",
         customStyle
       )}
     >

@@ -1,11 +1,10 @@
-import { NAVIGATION_LINKS } from "../../../constants/header-content"
 import Logo from "../../logo"
 import Container from "../container"
+import { NAVIGATION_LINKS } from "../../../constants/header-content"
 
 const FooterBottom = () => {
-  const light_blue = "#0D1A32"
   return (
-    <div className={`min-h-[50vh] w-full bg-[${light_blue}]`}>
+    <div className="min-h-[50vh] w-full bg-[#0D1A32]">
       <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 h-full gap-10 py-20">
         <div className="w-full h-full flex flex-col items-center lg:items-start gap-3 md:col-span-3 lg:col-span-2">
           <h1 className="text-white text-2xl md:text-3xl font-semibold">

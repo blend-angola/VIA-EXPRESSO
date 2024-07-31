@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Logo = () => {
   return (
-    <Link to="/" className="relative w-full h-16 lg:w-96 lg:h-24 mb-4">
+    <Link to="/" className="relative w-full h-16 lg:w-72 lg:h-24 mb-4">
       <img
         alt="logotipo"
         src="/logo/via-expresso-logo.jpg"

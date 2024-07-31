@@ -8,7 +8,7 @@ const NavigationBar = () => {
         <Link
           key={index}
           to={link.link ?? "#"}
-          className="font-bold uppercase text-sm hover:text-red-600 text-black transition-all duration-200 ease-in-out"
+          className="font-semibold uppercase text-[0.820rem] hover:text-red-600 text-black transition-all duration-200 ease-in-out"
         >
           {link.label}
         </Link>
