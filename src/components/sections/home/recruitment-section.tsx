@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react"
 import Container from "../../global/container"
-import Button from "../../global/ui/button"
+import LinkButton from "../../global/ui/link-button"
 
 const RecruitmentSection = () => {
   return (
@@ -20,7 +20,8 @@ const RecruitmentSection = () => {
             eficiente da nossa comunidade.
           </p>
           <p className="text-xl ">Faça já a sua candidatura</p>
-          <Button
+          <LinkButton
+            href=""
             text="Candidate-se já"
             icon={ArrowUpRight}
             customStyle="bg-red-700 text-white text-sm"

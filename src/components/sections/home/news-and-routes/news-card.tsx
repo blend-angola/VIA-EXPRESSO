@@ -1,6 +1,6 @@
-import { ArrowUpRight } from "lucide-react"
-import Button from "../../../global/ui/button"
 import RoundedImg from "./rounded-img"
+import { ArrowUpRight } from "lucide-react"
+import LinkButton from "../../../global/ui/link-button"
 
 const NewsCard = () => {
   return (
@@ -23,7 +23,7 @@ const NewsCard = () => {
         minus reprehenderit!
       </p>
 
-      <Button text="Ver mais" icon={ArrowUpRight} />
+      <LinkButton href="" text="Ver mais" icon={ArrowUpRight} />
     </div>
   )
 }

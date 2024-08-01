@@ -8,8 +8,6 @@ const Header = () => {
   return (
     <header>
       <HeaderTop />
-      <hr className="w-full h-[0.10rem] bg-zinc-500" />
-
       <Container className="lg:flex items-center hidden h-[18vh]">
         <Logo />
         <NavigationContainer />

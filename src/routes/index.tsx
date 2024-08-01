@@ -1,6 +1,7 @@
-import { createBrowserRouter } from "react-router-dom"
 import RootLayout from "../root-layout"
 import HomePage from "../pages/home-page"
+import { createBrowserRouter } from "react-router-dom"
+import RecruitmentPage from "../pages/recruitment-page"
 
 export const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
+      },
+      {
+        path: "/recrutamento",
+        element: <RecruitmentPage />,
       },
     ],
   },

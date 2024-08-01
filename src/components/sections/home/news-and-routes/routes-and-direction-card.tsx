@@ -1,6 +1,6 @@
-import { ArrowUpRight } from "lucide-react"
-import Button from "../../../global/ui/button"
 import RoundedImg from "./rounded-img"
+import { ArrowUpRight } from "lucide-react"
+import LinkButton from "../../../global/ui/link-button"
 
 const RoutesAndDirectionCard = () => {
   return (
@@ -26,7 +26,7 @@ const RoutesAndDirectionCard = () => {
               <li>Kilamba Kiaxi</li>
             </ol>
           </div>
-          <Button text="Ver mais" icon={ArrowUpRight} />
+          <LinkButton href="" text="Ver mais" icon={ArrowUpRight} />
         </div>
       </div>
     </div>
